@@ -652,6 +652,7 @@ footer a:hover{
 .sociallogoline
 {
     text-align: center;
+    padding-bottom: 1em;
     
 }
 
@@ -659,7 +660,8 @@ footer a:hover{
 {
     margin-right: 0px;
     margin-left: 0px;
-
+    margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .sociallogo
@@ -701,6 +703,7 @@ footer a:hover{
     font-size: 6em;
     color: #00FFB0;
     letter-spacing: 2px;
+    padding-top: 1em
 }
 
 
