@@ -1,0 +1,455 @@
+/* GENERAL */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+
+/* ANIMATION FADING ON PAGE LOAD */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+
+/* NAVBAR 1 */
+.navbar1{
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1.75em;
+	line-height: 2em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	top: 88%;
+	animation: fadein 2s;
+	text-align: center;
+	position: absolute;
+	z-index: 10;
+}
+
+.navbarbottom{
+	width: 33.3vw;
+}
+
+.navbarbottom a{
+	list-style: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25s ease-in;
+}
+
+.navbarbottom a:hover{
+	text-decoration: none;
+	color: #A5A5A5;
+	transition: 0.25s ease-out;
+}
+
+
+
+/* NAVBAR 2 */
+.navbar2 {
+	color:#464646;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.5em;
+	height: 8vh;
+	background: #00FFB0;
+	border-color: #00FFB0;
+}
+
+#myNavbar{
+ 	border:none;
+ 	font-family: 'Roboto Mono', monospace;
+	background-color: #00FFB0;
+	text-align: center;
+	margin: 0;
+}
+
+.navbar-toggle {
+	background-color: #00FFB0;
+	border: none;
+	margin-right: 5vw;
+	padding-top: 1.7vh;
+}
+
+button .navbar-toggle {
+	background: #00FFB0 !important;
+}
+
+.navbartop a {
+	width: 25vw;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #535353;
+    transition: 0.2s ease-out;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #535353;
+    transition: 0.2s ease-out;
+}
+
+.navbar-toggle {
+	background: #00FFB0;
+	border: none;
+	margin-right: 5vw;
+	padding-top: 1.7vh;
+}
+
+button .navbar-toggle {
+	background: #00FFB0 !important;
+}
+
+.navbar-brand {
+	padding-left: 50px;
+	font-size: 1.25em;
+}
+
+@media (max-width: 941px) {
+	.navbar-header {
+    	float: none;
+  	}
+  	.navbar-left,.navbar-right {
+    	float: none !important;
+  	}
+  	.navbar-toggle {
+    	display: block;
+  	}
+  	.navbar-collapse {
+    	border-top: 1px solid transparent;
+    	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  	}
+  	.navbar-fixed-top {
+    	top: 0;
+    	border-width: 0 0 1px;
+  	}
+  	.navbar-collapse.collapse {
+    	display: none!important;
+  	}
+  	.navbar-nav {
+    	float: none!important;
+    	margin-top: 7.5px;
+  	}
+  	.navbar-nav > li {
+    	float: none;
+  	}
+  	.navbar-nav > li > a {
+    	padding-top: 25px;
+    	padding-bottom: 20px;
+  	}
+	.navbar-nav > li:first-child {
+    	border-top: solid 1px #00F0AA;
+  	}
+  	.collapse.in {
+    	display:block !important;
+  	}
+  	.line {
+  		display: none;
+	}
+  	.navbar-inverse .navbar-nav li a {
+  		font-size: 0.9em;
+  		line-height: 30px;
+  		width: 100vw;
+  	}
+}
+
+
+
+/* CAROUSEL */
+.container-fluid {
+	padding: 0;
+}
+
+.carousel-size {
+	width: 100vw;
+	height: 100vh;
+}
+
+#myCarousel {
+	width: 100vw;
+	height: 100vh;
+}
+
+.item {
+	width: 100vw;
+	height: 100vh;
+}
+
+.img-carousel {
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	text-align: center;
+}
+
+.img-carousel-1 {
+ 	background-image: url(https://images.unsplash.com/photo-1510176427149-204c1712cc6b?ixlib=rb-0.3.5&s=54a474f4156aacb3641af4274ea5bda5&auto=format&fit=crop&w=750&q=80);
+	background-position: center;
+ 	filter: brightness(1.2) grayscale(100%);
+}
+
+.img-carousel-2 {
+ 	background-image: url(https://images.unsplash.com/photo-1495442358998-961b69f45703?ixlib=rb-0.3.5&s=38b3d8489d54086c2b0f293994fa4b1c&auto=format&fit=crop&w=1350&q=80);
+	background-position: center;
+ 	filter: brightness(0.5) grayscale(100%);
+}
+
+.img-carousel-3 {
+ 	background-image: url(https://images.unsplash.com/photo-1484579453300-aae5912047c3?ixlib=rb-0.3.5&s=632518da6eeafa2659b78a8ba55df0f1&auto=format&fit=crop&w=741&q=80);
+	background-position: center;
+ 	filter: brightness(0.6) grayscale(100%);
+}
+
+.carousel-control {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+	z-index: 6;
+}
+
+.carousel-control:focus {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+}
+
+.carousel-control:focus:hover {
+    opacity: 0.85;
+    transition-duration: 0.3s;
+}
+
+.carousel-control .glyphicon-arrow-left, .carousel-control .glyphicon-arrow-right{
+	top: 45%;
+	text-shadow: none;
+	opacity: 1;
+	animation: fadein 2s;
+}
+
+
+
+/* TITLE WILDO CODAK PHOTOGRAPHER */
+.title {
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+	letter-spacing: 2px;
+	color: #00FFB0;
+	position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    animation: fadein 2s;
+    z-index:5;
+}
+
+.title-blue {
+	color: #00FFB0;
+}
+
+
+/* 3 PROJECT LNKS */
+.pic {
+ 	height:33.3vw;
+ 	background-size: cover;
+	background-position: center;
+ 	transition: 0.4s;
+}
+
+#pic1 {
+	background-image: url(https://images.unsplash.com/photo-1517737812598-1a43d0ef2a60?ixlib=rb-0.3.5&s=42aa3ea00fe2f9571ee0c3dd7d7b63d7&auto=format&fit=crop&w=333&q=80);
+	filter: brightness(0.5) grayscale(100%);
+}
+
+#pic2 {
+	background-image: url(https://images.unsplash.com/photo-1471623320832-752e8bbf8413?ixlib=rb-0.3.5&s=005b1376e89624f720f6461749b34af4&auto=format&fit=crop&w=349&q=80);
+	filter: brightness(0.5) grayscale(100%);
+}
+
+#pic3 {
+	background-image: url(https://images.unsplash.com/photo-1485199433301-8b7102e86995?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19ed5760225af0ba683d1f747a286be2&auto=format&fit=crop&w=780&q=80);
+	filter: brightness(0.5) grayscale(100%);
+}
+
+.pic:hover #pic1, .pic:hover #pic2, .pic:hover #pic3{
+	filter: brightness(1) grayscale(100%);
+	transition: 0.4s;
+}
+
+.subtitle{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 28px;
+	letter-spacing: 2px;
+	color: white;
+	position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    transition: 0.20s ease-in-out;
+}
+
+.pic:hover .subtitle{
+	top: 42%;
+	transition: 0.20s ease-in-out;
+	color: #00FFB0;
+}
+
+.chapeau-subtitle{
+	opacity: 0;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: white;
+	position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    transition: 0.20s ease-in-out;
+}
+
+.pic:hover .chapeau-subtitle{
+	opacity: 1;
+	top: 57%;
+	transition: 0.20s ease-in-out;
+}
+
+.line{
+	height: 2px;
+	width: 15vw;
+	background-color: white;
+	position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: translateY(-50%);
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+
+.pic:hover .line{
+    opacity: 1; 
+    transition: 0.3s ease-in-out;
+}
+
+/* MEDIA QUERIES 3 PROJECTS LINKS */
+@media (max-width: 768px) {
+	.title{
+		font-size: 2em;
+	}
+
+	.pic {
+		height:50vw;
+	}
+
+	#navbar1{
+		display:none;
+	}
+}
+
+@media (max-width: 992px) {
+	.subtitle {
+		font-size: 25px !important;
+	}
+}
+
+
+
+/* FOOTER */
+footer{
+	background-color: #00FFB0;
+	padding: 15px;
+	text-align: center;
+	z-index: 15;
+	position: relative;
+	bottom: 0;
+	line-height: 35px;
+}
+
+footer a{
+	color: #464646;
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #464646;
+}
+
+.social-icon {
+	width: 18px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+
+/* ABOUT PAGE */
+.video-fullscreen{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-image: url(https://media.giphy.com/media/NMqW4abjShaQ8/giphy.gif);
+	background-size: cover;
+	z-index: -1;
+	margin: 0;
+	top: 0;
+}
+
+.page-title{
+	text-align: right;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 6em;
+	letter-spacing: 2px;
+	color: #00FFB0;
+	top: 8vh;
+	right: 12vw;
+	position: fixed;
+}
+
+.p-about{
+	text-align: left;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+	font-size: 3.5em;
+	letter-spacing: 1px;
+	line-height: 1.25em;
+	color: white;
+	width: 45vw;
+	margin-top: 35vh;
+	margin-left: 10vw;
+	margin-bottom: 10vw;
+}
+
+
