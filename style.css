@@ -382,6 +382,183 @@ button .navbar-toggle {
 }
 
 
+/* Page Portfolio Samuel DEBUT */
+
+@media screen and (max-width: 568px) {
+        h1 {
+    font-size:60px !important;
+	text-align: center !important; 
+    }
+}
+
+@media screen and (max-width: 568px) {
+        h2 {
+    font-size:40px !important;
+    padding-top: 80% !important; 
+    }
+}
+
+
+/* Style bg image fix */
+
+.bkg-fix1 {
+	
+	background-image: url("https://static.wixstatic.com/media/e262f8_6c8b7440b5f14310bb463695d3730161~mv2_d_3456_2304_s_2.jpg/v1/fill/w_1948,h_1298,al_c,q_90,usm_0.66_1.00_0.01/e262f8_6c8b7440b5f14310bb463695d3730161~mv2_d_3456_2304_s_2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height:800px;
+
+}
+
+.bkg-fix2 {
+	background-image: url(https://images.unsplash.com/photo-1483967071799-543e8dc3d238?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24d46031a72aba4316e729b7564ac3c3&auto=format&fit=crop&w=1950&q=80);
+	background-attachment: fixed;
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height: 800px;
+}
+
+.bkg-fix3 {
+	background-image: url(https://images.unsplash.com/photo-1485199433301-8b7102e86995?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19ed5760225af0ba683d1f747a286be2&auto=format&fit=crop&w=800&q=60);
+	background-attachment: fixed;
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height: 800px;
+}
+
+h2{
+	color:#00FFB0;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 5em;
+	background:rgba(255,255,255, 0);
+	border-radius: 30px;
+	padding-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+	padding-top:25%;
+}
+
+/* Style ‡ */
+
+.bkg-move-1{
+	background-image: url(https://static.wixstatic.com/media/e262f8_abe8614e7a404dd4b30f93f6ed2877ab~mv2_d_3028_2018_s_2.jpg/v1/fill/w_1948,h_1298,al_c,q_90,usm_0.66_1.00_0.01/e262f8_abe8614e7a404dd4b30f93f6ed2877ab~mv2_d_3028_2018_s_2.jpg);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height:750px;
+
+}
+
+.bkg-move-2{
+	background-image: url(https://static.wixstatic.com/media/e262f8_c9302395ec504f85a413fd26a20e58f1~mv2_d_3456_2304_s_2.jpg/v1/fill/w_1948,h_1298,al_c,q_90,usm_0.66_1.00_0.01/e262f8_c9302395ec504f85a413fd26a20e58f1~mv2_d_3456_2304_s_2.jpg);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height:750px;
+	
+}
+
+.bkg-move-3{
+	background-image: url(https://static.wixstatic.com/media/e262f8_09f17789cc8349cca166f4a67fe37606~mv2_d_2304_3456_s_2.jpg/v1/fill/w_1948,h_2922,al_c,q_90,usm_0.66_1.00_0.01/e262f8_09f17789cc8349cca166f4a67fe37606~mv2_d_2304_3456_s_2.jpg);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height:750px;
+	
+}
+
+.bkg-move-5{
+	background-image: url(https://images.unsplash.com/photo-1504575070132-986227df99f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1bd11763a76e8d8de994bea06995e2a5&auto=format&fit=crop&w=934&q=80);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	filter: grayscale(90%);
+	height:750px;
+}
+
+.bkg-move-6{
+	background-image: url(https://images.unsplash.com/photo-1517962847327-e8032e806fcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=49891b23b75c5dea62a62fb770278cd1&auto=format&fit=crop&w=934&q=80);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	filter: grayscale(90%);
+	height:750px;
+}
+
+.bkg-move-7{
+	background-image: url(https://i.pinimg.com/736x/b8/a0/2f/b8a02fb81121bd6a511901b46e183fa0--style-mode-paris-street.jpg);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	height:750px;
+}
+
+.bkg-move-9{
+	background-image: url(https://images.unsplash.com/photo-1469899324414-c72bfb4d4161?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8635e008142e9cdd018f7b071c8f5361&auto=format&fit=crop&w=1950&q=80);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	filter: grayscale(90%);
+	height:750px;
+}
+
+.bkg-move-10{
+	background-image: url(https://images.unsplash.com/photo-1513029548773-6760154bdfbd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=444fcb5940f65a6154e31bc6eea4dcff&auto=format&fit=crop&w=1950&q=80);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	filter: grayscale(90%);
+	height:750px;
+}
+
+.bkg-move-11{
+	background-image: url(https://images.unsplash.com/photo-1508809542074-6ac268a92855?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9148415c90c0f1bd0289d35e49c4feb8&auto=format&fit=crop&w=800&q=60);
+	background-repeat: no-repeat, repeat-y;
+	background-size: cover;
+	background-position: center; 
+	filter: grayscale(70%);
+	filter: sepia(50%);
+	height:750px;
+}
+
+
+.citation{
+	color: white; 
+	margin-top: 40vh;
+	font-size: 2em;
+	font-family: 'Work Sans', sans-serif;
+	background-color: black; 
+	padding-left: 4vw; 
+	padding-right: 4vw; 
+}
+
+.more{
+	font-size: 2vw; 
+	text-align: center;
+	margin-top: 25vh;
+}
+
+.more > a{
+	color:#00FFB0;
+	font-size: 2em;
+}
+.more > a:hover{
+	text-decoration: none; 
+	color:grey;
+}
+
+.black{
+	background-color: black; 
+	margin:0px;
+}
+
+/* Page Portfolio Samuel FIN */
+
 
 /* FOOTER */
 footer{
