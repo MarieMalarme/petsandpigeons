@@ -384,12 +384,6 @@ button .navbar-toggle {
 
 /* Page Portfolio Samuel DEBUT */
 
-@media screen and (max-width: 568px) {
-        h1 {
-    font-size:60px !important;
-	text-align: center !important; 
-    }
-}
 
 @media screen and (max-width: 568px) {
         h2 {
@@ -598,6 +592,7 @@ footer a:hover{
 	position: fixed;
 	background-image: url(https://media.giphy.com/media/NMqW4abjShaQ8/giphy.gif);
 	background-size: cover;
+	background-position: center; 
 	z-index: -1;
 	margin: 0;
 	top: 0;
