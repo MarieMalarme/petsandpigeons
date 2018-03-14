@@ -635,6 +635,15 @@ footer a:hover{
     padding: 10px 0;
     background-color: ;
     text-align: center;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.contactformsmall {
+    padding: 10px 0;
+    background-color: ;
+    text-align: center;
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -730,7 +739,7 @@ footer a:hover{
     height: 40px;
     overflow: hidden;
     line-height: 40px;
-    background-color: transparent;
+    background-color: #EFF0F1;
     border: none;
     border-bottom: 1px dotted;
     vertical-align: text-bottom;
@@ -752,7 +761,7 @@ footer a:hover{
     font-size: 28px;
     color: #999;
     border: 1px dotted;
-    background-color: transparent;
+    background-color: ;
     border-radius: 0;
 }
 
