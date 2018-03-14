@@ -756,5 +756,10 @@ footer a:hover{
     border-radius: 0;
 }
 
+iframe
+{
+	filter: grayscale();
+}
+
 
 /* CONTACT PAGE END */
