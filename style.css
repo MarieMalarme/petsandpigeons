@@ -386,9 +386,9 @@ button .navbar-toggle {
 
 
 @media screen and (max-width: 568px) {
-        h2 {
+        .section_title {
     font-size:40px !important;
-    padding-top: 80% !important; 
+    padding-top: 50vh !important; 
     }
 }
 
@@ -433,7 +433,7 @@ button .navbar-toggle {
 	margin-right: 20px;
 	margin-left: 20px;
 	text-align: center;
-	padding-top: 25%; 
+	padding-top: 50vh; 
 }
 
 /* Style ‡ */
