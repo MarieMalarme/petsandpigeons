@@ -649,7 +649,7 @@ footer a:hover{
     padding: 10px 0;
     background-color: ;
     text-align: center;
-    text-align: justify;
+    text-align: left;
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -726,7 +726,8 @@ footer a:hover{
     font-size: 6em;
     color: #00FFB0;
     letter-spacing: 2px;
-    padding-top: 1em
+    padding-top: 1em;
+    
 }
 
 
@@ -738,6 +739,10 @@ footer a:hover{
     color: #00FFB0;
     letter-spacing: 2px;
     border: none;
+    padding-left: 3.5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.5em;
+
 
 }
 
@@ -773,10 +778,11 @@ footer a:hover{
 }
 .submit.btn.btn-lg {
     font-size: 28px;
-    color: #999;
+    color: #00FFB0;
     border: 1px dotted;
     background-color: ;
     border-radius: 0;
+    transition: .5s ease;
 }
 
 iframe
@@ -784,5 +790,14 @@ iframe
 	filter: grayscale();
 }
 
+/* MEDIA QUERIES FOR CONTACT */
+
+@media screen and (max-width: 568px) {
+        .Contact {
+    font-size: 3.4em !important;
+    padding-top: 10vh !important; 
+    text-align: center;
+    padding-bottom: 5vh;
+    }
 
 /* CONTACT PAGE END */
