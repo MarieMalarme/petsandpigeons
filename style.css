@@ -745,7 +745,6 @@ footer a:hover {
     font-family: 'Roboto Mono', monospace;
     font-size: 6em;
     color: #00FFB0;
-    letter-spacing: 2px;
     padding-top: 1em;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -816,7 +815,6 @@ iframe {
     	padding-top: 10vh !important; 
     	text-align: center;
     	padding-bottom: 5vh;
-    	letter-spacing: 0.5px;
     }
 	.contactformsmall {
 	    margin-top: 30px;
